@@ -1,0 +1,7 @@
+map-reduce:
+    mean: failed
+    variation: failed
+
+pandas:
+    mean: 152.7206871868289
+    variation: 57674.02524696099
