@@ -19,4 +19,4 @@ for line in input:
 mean_val /= cnt
 variation = variation / cnt - mean_val ** 2
 
-sys.stdout.write(f'{cnt} {mean_val} {variation}\n')
+sys.stdout.write('{}\t{}\t{}\n'.format(cnt, mean_val, variation))

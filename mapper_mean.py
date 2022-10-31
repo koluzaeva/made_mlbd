@@ -15,4 +15,4 @@ for line in input:
     cnt += 1
 
 mean_val /= cnt
-sys.stdout.write('{}\t{}\n'.format(cnt, meanval))
+sys.stdout.write('{}\t{}\n'.format(cnt, mean_val))
