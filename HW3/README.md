@@ -6,17 +6,19 @@
 
 Дерево проекта:
 
-| --data
-|   | --train.csv
-|   | --test.csv
-| --src
-|   | --main
-|        | --scala
-|             | --maim.scala
-| --train_logs
-|    | --learning_statistics.txt
-|    | --predictions.txt
-| --build.sbt
-| --RADME.md
+    ├──data
+    |   ├──train.csv
+    |   ├──test.csv
+    ├──src
+    |   ├──main
+    |        ├──scala
+    |             ├──main.scala
+    ├──train_logs
+    |    ├──learning_statistics.txt
+    |    ├──prediction.txt
+    ├──build.sbt
+    ├──RADME.md
 
-Модель линейной регрессии
+Модель линейной регрессии обучается на data/train.csv, сохраняет ошибки обучения и ошибки валидации по эпохам в train_logs/learning_statistics.txt. Результаты предсказаний для data/test.csv сохраняются в train_logs/prediction.txt.
+
+Код реализован в main.scala (https://github.com/koluzaeva/made_mlbd/blob/main/HW3/src/main/scala/main.scala)
